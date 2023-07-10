@@ -37,3 +37,14 @@ code {
 ::-webkit-scrollbar-thumb {
   background: #030712;
 }
+
+@keyframes rotation
+{
+  from { transform: rotate(0deg) }
+  to { transform: rotate(359deg) }
+}
+
+.loader
+{
+  animation: rotation 900ms ease infinite;
+}
